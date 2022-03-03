@@ -59,13 +59,6 @@ INSERT INTO TBLHuongDan VALUES
 (6,'Dt01',13,Null),
 (7,'Dt04',11,10),
 (8,'Dt03',15,6)
-SELECT * FROM TBLKHOA
-SELECT * FROM TBLSINHVIEN
-SELECT * FROM TBLGiangVien
-SELECT * FROM TBLDETAI
-SELECT * FROM TBLHUONGDAN
-
-
 
 --Đưa ra thông tin gồm mã số, họ tên và tên khoa của tất cả các giảng viên
 SELECT G.Magv, G.Hotengv, K.Tenkhoa
