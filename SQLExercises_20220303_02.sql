@@ -275,7 +275,6 @@ CASE WHEN @SortingCol = 'MaDKCC' AND @SortType ='DESC' THEN MaDKCC END DESC
 OFFSET (@PageNumber-1)*@RowsOfPage ROWS
 FETCH NEXT @RowsOfPage ROWS ONLY
 -- Lấy Top 3 Dòng xe có chỗ ngồi nhiều nhất
--- Cách 1:
 SELECT TOP 3 *
 FROM DONGXE
 ORDER BY SoChoNgoi DESC
